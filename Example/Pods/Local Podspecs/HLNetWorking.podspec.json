@@ -1,0 +1,22 @@
+{
+  "name": "HLNetWorking",
+  "version": "0.1.0",
+  "summary": "A short description of HLNetWorking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/slb2709673@126.com/HLNetWorking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "slb2709673@126.com": "slb2709673@126.com"
+  },
+  "source": {
+    "git": "https://github.com/slb2709673@126.com/HLNetWorking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HLNetWorking/Classes/**/*"
+}

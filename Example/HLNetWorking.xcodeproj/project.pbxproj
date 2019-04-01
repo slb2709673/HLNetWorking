@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3123F70E3B2EC42A56DF4AE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		324965AA5A9965A470E33929 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3123F70E3B2EC42A56DF4AE8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		324965AA5A9965A470E33929 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		33414AE4360E56E549166F81 /* Pods-HLNetWorking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLNetWorking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HLNetWorking_Tests/Pods-HLNetWorking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D13E78634881D04A56D82D2 /* Pods_HLNetWorking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLNetWorking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -29,7 +29,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6CF6A1A8EB25273406A01EA3 /* HLNetWorking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HLNetWorking.podspec; path = ../HLNetWorking.podspec; sourceTree = "<group>"; };
+		6CF6A1A8EB25273406A01EA3 /* HLNetWorking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HLNetWorking.podspec; path = ../HLNetWorking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BCB2816EFAD9AC2DE3B1DB80 /* Pods-HLNetWorking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLNetWorking_Tests.release.xcconfig"; path = "Target Support Files/Pods-HLNetWorking_Tests/Pods-HLNetWorking_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,7 +114,6 @@
 				33414AE4360E56E549166F81 /* Pods-HLNetWorking_Tests.debug.xcconfig */,
 				BCB2816EFAD9AC2DE3B1DB80 /* Pods-HLNetWorking_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,6 +150,7 @@
 				ORGANIZATIONNAME = "slb2709673@126.com";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = P9F7MTF83T;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -160,6 +160,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -327,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33414AE4360E56E549166F81 /* Pods-HLNetWorking_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = P9F7MTF83T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -350,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BCB2816EFAD9AC2DE3B1DB80 /* Pods-HLNetWorking_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = P9F7MTF83T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
